@@ -20,9 +20,15 @@ class Test
     public static void main(String[] args)
     {
         ArrayList<String> address = new ArrayList<>();
+            Scanner sc = new Scanner(System.in);
+            String x = sc.nextLine();
+            String y = sc.nextLine();
+        //   address.add("review-team@geeksforgeeks.org");
+        //   address.add("writing.geeksforgeeks.org");
+
+          address.add(x);
+          address.add(y);
             
-          address.add("review-team@geeksforgeeks.org");
-          address.add("writing.geeksforgeeks.org");
             
         for(String i : address){
             if (isValid(i))
